@@ -1,0 +1,170 @@
+.clear{
+ clear:both;
+}
+.goal-container{
+ width: 23%;
+ border: 1px solid #e8e8e8;
+ border-radius: 5px;
+ float:left;
+ margin: 10px;
+}
+.top-goal-heading{
+ background-color: #51DB66;
+ color: white;
+ font-size: 15px;
+ padding: 10px 5px;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+ border: 2px solid #51DB66;
+ margin: -1px;
+ text-align: center;
+}
+
+.week-goal-heading{
+ background-color: #676767;
+ color: white;
+ font-size: 15px;
+ padding: 10px 5px;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+ border: 2px solid #676767;
+ margin: -1px;
+ text-align: center;
+}
+
+.daily-goal-heading{
+ background-color: #123456;
+ color: white;
+ font-size: 15px;
+ padding: 10px 5px;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+ border: 2px solid #123456;
+ text-align: center;
+ margin: -1px;
+}
+
+.note-heading{
+ background-color:  #D68D58;
+ color: white;
+ font-size: 15px;
+ padding: 10px 5px;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+ border: 2px solid #D68D58;
+ margin: -1px;
+ text-align: center;
+}
+
+.time-heading{
+ background-color: #C822A7;
+ color: white;
+ font-size: 15px;
+ padding: 10px 5px;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+ border: 2px solid #C822A7;
+ margin: -1px;
+ text-align: center;
+}
+
+.reddit-heading{
+ background-color: #90C695; 
+ color: white;
+ font-size: 15px;
+ padding: 10px 5px;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+ border: 2px solid #90C695;
+ margin: -1px;
+ text-align: center;
+}
+
+.save-goal-list-button, .add-goal-list-button{
+ float:right;
+ padding: 5px;
+ margin-right: 5px;
+ margin-left: 5px;
+ margin-top: -5px;
+ border:none;
+}
+.goal-list, .reddit-listing{
+ list-style: none;
+ padding-left: 0px;
+ margin: 0px 0px 15px 0px;
+}
+.goal-list-item{
+ border-bottom : 2px solid #e8e8e8;
+ padding: 5px 0px;
+}
+ul.goal-list li.goal-list-item:nth-last-child(n){
+ border-bottom: none;
+}
+.goal-list-checkbox{
+ border-radius: 5px;
+}
+.hide{
+ display: none !important;
+}
+.add-goal-list{
+ width: 95%;
+ margin-left: auto;
+ margin-right: auto;
+ border:1px solid #e8e8e8;
+ display:block;
+}
+
+.no-goal{
+ text-align: center;
+ margin-top: 5px;
+ margin-bottom: 5px;
+}
+
+.note-container{
+ width: 90%;
+ padding: 10px;
+}
+
+.note-field{
+ border: 2px dotted #e8e8e8;
+ width: 90%;
+ height: 100px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+}
+
+.date-display{
+ text-align: center;
+ font-size: 13px;
+ font-weight: bold;
+}
+.time-display{
+ text-align: center;
+ font-size: 42px;
+
+}
+
+.reddit-url{
+ text-decoration: none;
+ padding-left: 10px;
+}
+
+.reddit-comment{
+ float:left;
+ padding-left:10px;
+}
+
+.reddit-comment-list{
+ float:right;
+ padding-right:10px;
+}
+
+.one-listing{
+ padding-top:10px;
+ padding-bottom:10px;
+ border-top: 1px solid #e8e8e8;
+}
+

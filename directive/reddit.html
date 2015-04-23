@@ -1,0 +1,14 @@
+<ul class="reddit-listing">
+<li class="one-listing" ng-repeat="oneEntry in list">
+ <a class="reddit-url" href="{{oneEntry.url}}" target="_blank">{{oneEntry.title}}</a>
+ <div class="reddit-below-link">
+  <div class="reddit-comment" >Comments: {{oneEntry.num_comments}}</div >
+  <div class="reddit-comment-list"><a href="{{oneEntry.commentList}}" target="_blank">comments</a></div>
+  <div class="clear"></div>
+ </div>
+</li>
+<li class="no-goal" ng-class="{hide: countList()}">
+No reddit Articles
+</li>
+
+</ul>

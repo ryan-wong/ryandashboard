@@ -1,0 +1,2 @@
+<div class="note-container" ng-click="openNote()" ng-class="{hide: showAdd}">{{noteHolder}}</div >
+<textarea class="note-field" ng-blur="saveNote()" ng-model="noteHolder"  ng-class="{hide: !showAdd}"></textarea>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html  ng-app="dashboard">
+<head>
+ <title></title>
+ <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<header ng-controller="NavCtrl">Nav</header>
+<div class="goal-container">
+  <todo headerClass="top-goal-heading" headerTitle="Top Goal" file="dashboard_topgoals"></todo>
+</div>
+<div class="goal-container">
+  <todo headerClass="week-goal-heading" headerTitle="Weekly Goal" file="dashboard_weeklygoals"></todo>
+</div>
+<div class="goal-container">
+  <todo headerClass="daily-goal-heading" headerTitle="Daily Goal" file="dashboard_dailygoals"></todo>
+</div>
+<div class="goal-container">
+  <div class="time-heading">
+    Time
+  </div>
+  <time-display></time-display>
+</div>
+<div class="goal-container">
+  <div class="note-heading">
+    Notes
+  </div>
+  <note file="dashboard_notes"></note>
+</div>
+<div ng-controller="ReferenceCtrl" class="goal-container">
+Reference
+</div>
+<div ng-controller="RedditCtrl" class="goal-container">
+<div class="reddit-heading">
+Reddit  
+</div>
+
+<reddit-listing headertitle="Reddit LOL"></reddit-listing>
+</div>
+
+    <script src="lib/angular.js"></script>
+    <script src="lib/angular-sanitize.js"></script>
+    <script src="lib/angular-route.js"></script>
+    <script src="scripts/directive.js"></script>
+    <script src="scripts/route.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controller.js"></script>
+</body>
+</html>

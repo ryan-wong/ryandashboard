@@ -1,0 +1,21 @@
+<div class=" headerClass">
+{{headertitle}}
+<button class="add-goal-list-button" ng-click="add()"> A</button>
+<button class="save-goal-list-button" ng-click="save()"> S</button>
+</div >
+
+<ul class="goal-list">
+<li class="goal-list-item" ng-model="goals" ng-repeat="oneGoal in goals">
+<input type="checkbox" class="goal-list-checkbox" ng-click="removeGoal(oneGoal.id);" />
+<span ng-click="editText(oneGoal);" ng-class="{hide: oneGoal.hide}">{{oneGoal.text}}</span>
+<input type="text" class="edit-goal-list" value="{{changeGoal}}" name="change
+Goal" ng-model="changeGoal"
+       ng-class="{hide: !oneGoal.hide}" ng-blur="saveOneGoal(oneGoal,this)"/>
+</li>
+<li class="no-goal" ng-class="{hide: countList()}">
+No more Goals remaining
+</li>
+<li ng-class="{hide: !showAdd}">
+<input type="text" class="add-goal-list" value="{{changeAddGoal}}" name="changeAddGoal" ng-model="changeAddGoal"
+ ng-blur="addOneGoal(this)" placeholder="add new goal"/></li>
+</ul>
