@@ -2,80 +2,80 @@
  clear:both;
 }
 .goal-container{
- width: 23%;
+ width: 30%;
  border: 1px solid #e8e8e8;
  border-radius: 5px;
  float:left;
  margin: 10px;
 }
 .top-goal-heading{
- background-color: #51DB66;
+ background-color: #CF000F;
  color: white;
  font-size: 15px;
  padding: 10px 5px;
  border-top-left-radius: 5px;
  border-top-right-radius: 5px;
- border: 2px solid #51DB66;
+ border: 2px solid #CF000F;
  margin: -1px;
  text-align: center;
 }
 
 .week-goal-heading{
- background-color: #676767;
+ background-color: #2C3E50;
  color: white;
  font-size: 15px;
  padding: 10px 5px;
  border-top-left-radius: 5px;
  border-top-right-radius: 5px;
- border: 2px solid #676767;
+ border: 2px solid #2C3E50;
  margin: -1px;
  text-align: center;
 }
 
 .daily-goal-heading{
- background-color: #123456;
+ background-color: #03C9A9;
  color: white;
  font-size: 15px;
  padding: 10px 5px;
  border-top-left-radius: 5px;
  border-top-right-radius: 5px;
- border: 2px solid #123456;
+ border: 2px solid #03C9A9;
  text-align: center;
  margin: -1px;
 }
 
 .note-heading{
- background-color:  #D68D58;
+ background-color:  #F2784B;
  color: white;
  font-size: 15px;
  padding: 10px 5px;
  border-top-left-radius: 5px;
  border-top-right-radius: 5px;
- border: 2px solid #D68D58;
+ border: 2px solid #F2784B;
  margin: -1px;
  text-align: center;
 }
 
 .time-heading{
- background-color: #C822A7;
+ background-color: #6C7A89;
  color: white;
  font-size: 15px;
  padding: 10px 5px;
  border-top-left-radius: 5px;
  border-top-right-radius: 5px;
- border: 2px solid #C822A7;
+ border: 2px solid #6C7A89;
  margin: -1px;
  text-align: center;
 }
 
 .reddit-heading{
- background-color: #90C695; 
+ background-color: #68C3A3;
  color: white;
  font-size: 15px;
  padding: 10px 5px;
  border-top-left-radius: 5px;
  border-top-right-radius: 5px;
- border: 2px solid #90C695;
+ border: 2px solid #68C3A3;
  margin: -1px;
  text-align: center;
 }
